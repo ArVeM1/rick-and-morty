@@ -1,0 +1,15 @@
+.link {
+  text-decoration: none;
+  color: white;
+  flex: 1;
+
+  @media (max-width: 580px) {
+    font-size: 10px;
+  }
+}
+
+.search {
+  @media (max-width: 580px) {
+    width: 130px;
+  }
+}
